@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 
-//TODO: Fixa nätverk länkar
+//TODO: Fixa nï¿½tverk lï¿½nkar
 
 class Menu extends Component{
 	render(){
