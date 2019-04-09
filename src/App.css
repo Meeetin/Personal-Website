@@ -1,3 +1,5 @@
+
+
 html{
 	min-height:100%;
 }
@@ -43,11 +45,11 @@ cursor:pointer;
 }
 .aboutMe{
 float: right;
-
+text-align:center;
 position: relative;
 left: -50%; 
 max-width:75%;
-
+border:1px solid red;
 }
 .aboutMeTitle{
 margin-top:10px;
@@ -62,4 +64,20 @@ border-bottom: 1px solid #110934;
 
  position: relative;
  left: 50%; 
+ border:1px solid red;
+}
+
+.Portfolio{
+float: right;
+text-align:center;
+position: relative;
+left: -50%; 
+max-width:75%;
+border:1px solid red;
+bottom:50%;
+}
+#PortfolioTitle{
+	position: relative;
+	left:50%;
+
 }

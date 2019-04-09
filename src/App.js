@@ -4,6 +4,8 @@ import './App.css';
 
 
 //TODO: Fixa n�tverk l�nkar
+// fixa portfolio CSS.
+
 
 class Menu extends Component{
 	render(){
@@ -51,14 +53,35 @@ class AboutMeTitle extends Component{
 		)
 	}
 }
+class Portfolio extends Component{
+render(){
+	return(
+		<div className="Portfolio">
+		<span id="PortfolioTitle">Portfolio</span>
+		<br></br>
+		<table>
 
+
+		</table>
+
+
+		</div>
+	)
+}
+
+}
 class App extends Component {
   render() {
     return (
       <div className="App">
 		<Menu/>
+
 		<AboutMeTitle/>
+
 		<AboutMe/>
+		<Portfolio/>
+
+
       </div>
     );
   }
